@@ -1,0 +1,6 @@
+@UploadFileValidation_HostAddress = http://localhost:5026
+
+GET {{UploadFileValidation_HostAddress}}/fileupload/
+Accept: application/json
+
+###
