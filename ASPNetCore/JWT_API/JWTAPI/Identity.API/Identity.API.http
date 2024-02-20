@@ -1,0 +1,6 @@
+@Identity.API_HostAddress = http://localhost:5152
+
+GET {{Identity.API_HostAddress}}/token/
+Accept: application/json
+
+###

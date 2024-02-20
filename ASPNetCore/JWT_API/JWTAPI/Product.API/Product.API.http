@@ -1,0 +1,6 @@
+@Product.API_HostAddress = http://localhost:5086
+
+GET {{Product.API_HostAddress}}/Product/
+Accept: application/json
+
+###
