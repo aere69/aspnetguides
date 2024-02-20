@@ -1,2 +1,0 @@
-https://www.telerik.com/blogs/aspnet-core-basics-data-structures-part-1
-https://www.telerik.com/blogs/aspnet-core-basics-data-structures-part-2
