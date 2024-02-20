@@ -204,26 +204,26 @@ int HashFunction(string key)
 }
 
 // Add key-value pairs to the table
-hashtable[HashFunction("2023001")] = "Bob";
-hashtable[HashFunction("2023002")] = "Alice";
-hashtable[HashFunction("2023003")] = "John";
+hashtable[HashFunction("20240201")] = "Brad";
+hashtable[HashFunction("20240202")] = "Luna";
+hashtable[HashFunction("20240203")] = "John";
 
 // Retrieve values using keys
-int key1 = HashFunction("2023001");
-int key2 = HashFunction("2023002");
-int key3 = HashFunction("2023003");
+int key1 = HashFunction("20240201");
+int key2 = HashFunction("20240202");
+int key3 = HashFunction("20240203");
 
 string value1 = (string)hashtable[key1];
 string value2 = (string)hashtable[key2];
 string value3 = (string)hashtable[key3];
 
-Console.WriteLine("Index associated with key 2023001: " + key1);
-Console.WriteLine("Index associated with key 2023002: " + key2);
-Console.WriteLine("Index associated with key 2023003: " + key3);
+Console.WriteLine("Index associated with key 20240201: " + key1);
+Console.WriteLine("Index associated with key 20240202: " + key2);
+Console.WriteLine("Index associated with key 20240203: " + key3);
 
-Console.WriteLine("Value associated with key 2023001: " + value1);
-Console.WriteLine("Value associated with key 2023002: " + value2);
-Console.WriteLine("Value associated with key 2023003: " + value3);
+Console.WriteLine("Value associated with key 20240201: " + value1);
+Console.WriteLine("Value associated with key 20240202: " + value2);
+Console.WriteLine("Value associated with key 20240203: " + value3);
 
 #endregion
 
