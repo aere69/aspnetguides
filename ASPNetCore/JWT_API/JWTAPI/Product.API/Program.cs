@@ -25,6 +25,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 
+builder.Services.AddAuthorization(opts => {
+    opts.AddPolicy("OnlyForOwner", policy => {
+        policy.RequireClaim("IsOwner", "true");
+    });
+});
+
 // Add services to the container.
 
 builder.Services.AddControllers();

@@ -17,6 +17,7 @@ namespace Product.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Manager, Admin")]
         public IActionResult Create([FromBody]ProductRequest request)
         {
             var model = new Models.Product { Id = request.Id, Name = request.Name };
@@ -27,6 +28,7 @@ namespace Product.API.Controllers
         }
 
         [HttpDelete]
+        [Authorize(Policy = "OnlyForOwner")]
         public IActionResult Delete([FromBody]int id) 
         { 
             if (!Storage.Delete(id)) return new BadRequestResult();
@@ -35,6 +37,7 @@ namespace Product.API.Controllers
         }
 
         [HttpPut]
+        [Authorize(Roles = "Admin")]
         public IActionResult Update([FromBody]ProductRequest request) 
         {
             var model = new Models.Product { Id = request.Id,  Name = request.Name };

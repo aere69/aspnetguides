@@ -20,7 +20,12 @@ namespace Identity.API.Controllers
         [HttpPost]
         public string Create([FromBody]TokenGenerationRequest request)
         {
-            var claims = new List<Claim> { new Claim(ClaimTypes.Email, request.Email) };
+            var claims = new List<Claim> { 
+                new Claim(ClaimTypes.Email, request.Email),
+                new Claim(ClaimTypes.Role, "Admin")
+                //new Claim(ClaimTypes.Role, "Manager")
+                //new Claim("IsOwner", "true")
+            };
 
             var jwt = new JwtSecurityToken(
                 issuer: Issuer,
