@@ -1,0 +1,6 @@
+@SecureWebApiUsingApiKey_Middleware_HostAddress = http://localhost:5293
+
+GET {{SecureWebApiUsingApiKey_Middleware_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
