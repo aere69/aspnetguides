@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingFast.Domain", "BookingFast.Domain\BookingFast.Domain.csproj", "{2CFD5101-B488-4EA2-96B6-E3FAAF60D30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingFast.Infrastructure", "BookingFast.Infrastructure\BookingFast.Infrastructure.csproj", "{856F49D1-4F88-47C7-964B-4D762C095853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CFD5101-B488-4EA2-96B6-E3FAAF60D30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFD5101-B488-4EA2-96B6-E3FAAF60D30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFD5101-B488-4EA2-96B6-E3FAAF60D30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFD5101-B488-4EA2-96B6-E3FAAF60D30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856F49D1-4F88-47C7-964B-4D762C095853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856F49D1-4F88-47C7-964B-4D762C095853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856F49D1-4F88-47C7-964B-4D762C095853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856F49D1-4F88-47C7-964B-4D762C095853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
