@@ -7,3 +7,5 @@ Each folder represents a complete solution.
 Each solution can be built separatey with `dotnet build` or run with `dotnet run`
 
 Some solutions may include additonal test to verify the solution that can be run with `dotnet test`.
+
+[ASP.Net Core Guides](https://github.com/aere69/aspnetguides/tree/main/ASPNetCore)
